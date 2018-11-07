@@ -50,6 +50,8 @@ window.navigator.vibrate(0)
 
 [Browser Compatability](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API#Browser_compatibility)
 
+-----
+
 ### [Device Orientation](https://developer.mozilla.org/en-US/docs/Web/API/Detecting_device_orientation)
 Increasingly, web-enabled devices are capable of determining their orientation; that is, they can report data indicating changes to their orientation with relation to the pull of gravity. 
 
@@ -69,6 +71,8 @@ window.addEventListener("deviceorientation", handleOrientation, true);
 
 [Browser Compatability](https://developer.mozilla.org/en-US/docs/Web/API/Detecting_device_orientation#Browser_compatibility)
 
+-----
+
 ### [Clipboard](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API)
 The Clipboard API provides the ability to respond to clipboard commands (cut, copy, and paste) as well as to asynchronously read from and write to the system clipboard. 
 
@@ -78,6 +82,8 @@ navigator.clipboard.readText().then(
 ```
 
 [Browser Compatability](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API#Browser_compatibility)
+
+-----
 
 ### Ambient Light Events
 The ambient light events are a handy way to make a web page or an application aware of any change in the light intensity. It allows them to react to such a change, for example by changing the color contrast of the User Interface (UI) or by changing the exposure necessary to take a picture.
