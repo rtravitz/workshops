@@ -1,6 +1,10 @@
 # Browser API Workshop
 Take a look through the list of browser APIs below. Pick one (or more!) out that you'd like to try, read the MDN docs, and then build a quick sample app. You're trying to impress everyone else in the room here, so be creative! We'll present to teach other in the last few minutes of the session.
 
+If none of the below APIs suit your fancy, check out [What Web Can Do Today](https://whatwebcando.today/) for a much more complete list.
+
+Want to host your static files online to test from your mobile device? [Try Netlify](https://www.netlify.com/). It only takes a second to create a free account. Netlify will scrape a Github branch that you specify for deployments.
+
 ## APIS
 
 ### [Geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
