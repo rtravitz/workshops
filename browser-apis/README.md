@@ -1,3 +1,22 @@
+# Browser API Workshop
+Take a look through the list of browser APIs below. Pick one (or more!) out that you'd like to try, read the MDN docs, and then build a quick sample app. You're trying to impress everyone else in the room here, so be creative! We'll present to teach other in the last few minutes of the session.
+
+## APIS
+
+### [Geolocation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
+The Geolocation API allows the user to provide their location to web applications if they so desire. For privacy reasons, the user is asked for permission to report location information.
+
+##### Example:
+```javascript
+navigator.geolocation.getCurrentPosition(function(position) {
+  do_something(position.coords.latitude, position.coords.longitude);
+});
+```
+
+-----
+
+[Browser Compatability](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API#Browser_compatibility)
+
 ### [Page Visibility](https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API)
 
 When the user minimizes the window or switches to another tab, the API sends a visibilitychange event to let listeners know the state of the page has changed.
@@ -85,7 +104,7 @@ navigator.clipboard.readText().then(
 
 -----
 
-### Ambient Light Events
+### [Ambient Light Events](https://developer.mozilla.org/en-US/docs/Web/API/Ambient_Light_Events)
 The ambient light events are a handy way to make a web page or an application aware of any change in the light intensity. It allows them to react to such a change, for example by changing the color contrast of the User Interface (UI) or by changing the exposure necessary to take a picture.
 
 ```javascript
