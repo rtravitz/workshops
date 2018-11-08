@@ -1,0 +1,31 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status {
+  color: #fff;
+  font-size: 10em;
+  font-family: 'Pacifico', cursive;
+}
+
+.on {
+  text-shadow: 2px 2px #00cc00;
+}
+
+.off {
+  text-shadow: 2px 2px #ff0000;
+}
+
+.offContainer {
+  transition: all 1s linear;
+  background: linear-gradient(to right, #6f0000, #200122);
+}
+
+.onContainer {
+  transition: all 1s ease;
+  background: linear-gradient(to right, #093637, #44A08D);
+}
+
